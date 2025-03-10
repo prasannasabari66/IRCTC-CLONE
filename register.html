@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img src="./images/header-IRways-logo.png"></a>
+        <div class="nav-container">
+            <div class="nav-top">
+                <a href="login.html" style="background-color: rgb(30, 39, 117); color: white;">LOGIN</a>
+                <a href="">AGENT LOGIN</a>
+                <a href="contact_us.html">CONTACT US</a>
+                <a href="" style="color: red;">DAILY DEALS</a>
+                <a href="">ALERTS</a>
+                <a href="">TIME</a>
+                <a href="">A-</a>
+                <a href="">A</a>
+                <a href="">A+</a>
+                <a href="">हिंदी</a>
+            </div><br><br>
+            <div class="nav-bottom">
+                <a href="" style="background-color:  rgb(30, 39, 117); color: white;">IRCTC EXCLUSIVE</a>
+                <a href=""style="color:  rgb(255, 81, 0); text-decoration:underline;">TRAINS</a>
+                <a href="">LOYALITY</a>
+                <a href="" style="text-decoration:underline;">IRCTC eWallet</a>
+                <a href="">BUSES</a>
+                <a href="">FLIGHTS</a>
+                <a href="">HOTELS</a>
+                <a href="">MEALS</a>
+                <a href="">PROMOTIONS</a>
+                <a href="">MORE</a>
+            </div>
+        </div>
+        <img src="./images/header-IRCTC-logo.png">
+    </div>
+    <br>
+    <br>
+
+    <div class="register">
+        <img src="./images/regtrain.jpg" alt="regtrain" class="regtrain">
+        <img src="./images/train.jpeg" alt="train" class="train">
+        <div class="form-container">
+        <form action="login.html" autocomplete="on" target="_self">
+            <a href="login.html" target="_self" style="color: red; float: right;">Signin</a>
+            <h2>Create Your IRCTC account</h2>
+            <div class="lined-box">
+            <p> 1.Please use valid E-Mail ID, Mobile number and correct personal details in registration form. <br>This may be required for verification purpose.<br>
+             2.Garbage / Junk values in profile may lead to deactivation of IRCTC account.</p></div>
+             <br>
+            <label for="username"><label>
+            <input type="text" id="username" name="username" placeholder="User Name" required><br><br>
+            
+
+            <label for="fullname"><label>
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br><br>
+
+            <label for="password"><label>
+            <input type="password" id="password" name="password" placeholder="Password"  
+                   pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,15}$" 
+                   required>
+                   <span class="pass" style="font-style: italic; color: red;" >Minimum 8 to maximum 15 characters allowed.Must contain at least one small & one capital alphabet and numeric digit.</span>
+                   <br><br>
+
+            <label for="confirmpassword"><label>
+            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password"  
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,15}" 
+                    required>
+                    <br><br>
+
+            
+            <label for="email"><label>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            <label for="countrycode"></label>
+            <select id="countrycode" name="countrycode"  required>
+            <option value="India">+91 - India</option>
+            <option value="Afghan">+93-Afghanisthan</option>
+            <option value="Aland">+358-Aland Islands</option>
+            <option value="Albania">+355-Albania</option>
+            <option value="Algeria">+213-Algeria</option>
+            <option value="Andorra">+376-Andorra</option>
+            <option value="Angola">+244-Angola</option>
+            <option value="Antartica">+672-Antartica</option>
+            <option value="Austria">+43-Austria</option>
+            <option value="Bahamas">+242-Bahamas</option>
+            <option value="Bangladesh">+880-Bangladesh</option>
+            <option value="Bhutan">+975-Bhutan</option>
+            <option value="Canada">+1-Canada</option>
+            <option value="Cuba">+53-Cuba</option>
+            <option value="China">+86-China</option>
+            <option value="Finland">+358-Finland</option>
+            <option value="Germany">+49-Germany</option>
+            <option value="India">+91-India</option>
+            <option value="Japan">+81-Japan</option>
+            <option value="Kenya">+254-Kenya</option>
+            <option value="Malaysia">+60-Malaysia</option>
+            <option value="Mexico">+52-Mexico</option>
+            <option value="Korea">+850-North Korea</option>
+            <option value="Uganda">+256-Uganda</option>
+            <option value="Yemen">+967-Yemen</option>
+            <option value="Zimbabwe">+263-Zimbabwe</option>        
+            </select><br><br>
+
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phone" pattern="\d{10}" maxlength="10" placeholder="Mobile" required>
+
+            <p>______________________________</p>
+
+            <label for="captcha"></label><br>
+            <input type="text" id="captcha" placeholder="Enter captcha " style="width:100px;"> <br><br>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    </div>
+      
+    <div class="footer-icons">
+       <span style="color: white; font-size: 16px; margin-left: 100px;">Get connected with us on social networks </span>
+
+       <span style="margin-left: 100px;">
+       <a href="https://www.facebook.com/IRCTCofficial/" target="_blank" class="fb" alt="irctc facebook">
+        <i class="fab fa-facebook-f"></i> </a></span>
+    
+        <span style="margin-left: 70px;">
+        <a href="https://www.instagram.com/irctc.official/?igshid=yyg5byow704l" target="_blank" class="insta" alt="irctc instagram" >
+        <i class="fab fa-instagram"></i></a></span>
+
+        <span style="margin-left: 70px;">
+        <a href="https://x.com/IRCTCofficial" target="_blank"  class="twitter" alt="irctc twitter" color:#1DA1F2;>
+        <i class="fab fa-twitter"></i></a></span>
+
+        <span style="margin-left: 70px;">
+        <a href="https://in.pinterest.com/irctcofficial/" target="_blank"  class="pinterest" alt="irctc pinterest" color: #E60023; >
+        <i class="fab fa-pinterest"></i></a></span>
+
+        <span style="margin-left: 70px;">
+        <a href="https://www.tumblr.com/irctcofficial/" target="_blank" class="tumblr" alt="irctc tumblr" color: #35465C;>
+        <i class="fab fa-tumblr"></i></a></span>
+
+</body>
+</html>

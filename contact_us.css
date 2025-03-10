@@ -1,0 +1,26 @@
+#whole
+{
+    margin:100px 350px 30px 350px;
+    border:1px solid black;
+    box-sizing: border-box;
+    
+}
+#top
+{
+    background-color:rgba(6, 6, 97, 0.833);
+    padding:5px;
+    color:white;
+    font-size: large;
+    
+}
+#cntnt
+{
+    padding:8px;
+}
+.first
+{
+    text-decoration: none;
+}
+.first:hover{
+    text-decoration: underline;
+}

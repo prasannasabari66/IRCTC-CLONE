@@ -1,0 +1,232 @@
+
+.home-header{
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0; 
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+    z-index:10;            
+}
+.nav-items ul{
+     list-style: none;
+}
+.nav-items ul li{
+    display: inline-block;
+}
+.nav-items ul li a{
+    color: black;
+    margin-right: 20px;
+}
+.nav-items ul li a:hover{
+    color: rgb(255, 145, 0);
+}
+.nav-items ul li .imp{
+    background-color: rgb(47, 86, 204);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 7px;
+    margin: 2px 20px;
+    cursor: pointer;
+}
+.nav-items ul li .imp:hover{
+    background-color: rgb(6, 6, 103);
+}
+#booking-container{
+    background-image: url("./images/body-book-tk-bgImage.jpg");
+    padding: 50px;
+    background-size: cover;
+    border: 5px solid black;
+    padding: 10px;
+    margin-top: 130px;
+}
+main,.heading{
+    text-align:center;
+    margin: 0 auto;
+    background-color: white;
+    width: 55%;
+    padding-bottom: 10px;
+}
+.properties{
+    display: inline-block;
+    margin: 0px;
+    font-size: 25px;
+    color: powderblue;
+    
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+.home-btn{
+    background-color: rgb(6, 6, 103);
+    color: white;
+    padding: 5px 35px;
+    margin: 15px;
+    width: 280px;
+}
+
+#category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+#category select,
+#category .date {
+    margin: 0; 
+    padding: 5px; 
+}
+#search{
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(255, 145, 0);
+}
+#second-head{
+    text-align: center;
+    font-size: 40px;
+}
+#service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 0;
+}
+.services{
+    display: flex;
+    gap: 40px;
+}
+.button {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.cust-care{
+    display: block;
+    background-color: rgb(149, 10, 10);
+    color: white;
+    margin: 50px 340px;
+    padding: 10px;
+}
+.holidays{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+.card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.read_more {
+    font-weight: bold;
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.read_more:hover {
+    text-decoration: underline;
+ .tumblr:hover{
+                background-color: #2c3e50;
+            }
+            .tumblr i{
+                width:18px;
+            .read_more:hover {
+                text-decoration: underline;
+            }
+        } 
+}
+.footer-menu{
+    display:flex;
+    background-color:rgb(13,13,124);
+    color:white;
+    padding:40px;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.footer-menu summary:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+.footer-menu ul li:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+.footer-menu summary:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+.footer-menu ul li:hover:not(.active){
+    color:red;
+    background-color:white;
+}
+a{
+    color:white;
+}
+a:hover:not(.active){
+    color:black;
+}
+
+.footer-menu ul li{
+    list-style-type:none;
+}

@@ -1,0 +1,90 @@
+body{
+   margin: 0;
+   height: 100vh;
+   padding: 5% 5%;
+   display: flex;
+   justify-content: center;
+   font-family: "poppins",sans-serif;
+   background-image:url(vb.jpeg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+fieldset{
+    margin: 0;
+    padding: 50px;
+    width: 900px;
+    height: 700px;
+    background-color: white;
+    border-radius: 5px;
+}
+.btn-primary{
+    position: relative;
+    left: 40px;
+    top:-20%;
+    margin: 0;
+    padding:50% 20%;
+    background-color:#2680e1;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-primary:hover{
+    background-color: #0056b3;
+}
+
+.form{
+    width: 250px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    padding: 40px;
+    background-color: white;
+    color: rgb(27,26,26);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+h4{
+    position: relative;
+    top: -100%;
+    color: darkblue;
+    font-size: small;
+    
+}
+.form h1{
+    position: relative;
+    top: -5%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkblue;
+    opacity: 80%;
+}
+.form input{
+    position: relative;
+    top: -100%;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: groove;
+    background: white;
+    width: 90%;
+}
+
+.photo{
+    position: relative;
+    top: -10%;
+    border:solid;
+}
+.exit{
+    position: relative;
+    top: -5%;
+    left: 100%;
+    font-size: 30px;   
+}
+
